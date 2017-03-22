@@ -141,7 +141,6 @@ features[user_permission][] = administer panels layouts
 features[user_permission][] = administer panels pane styles
 features[user_permission][] = administer panels region styles
 features[user_permission][] = administer panels styles
-features[user_permission][] = administer paragraphs bundles
 features[user_permission][] = administer pathauto
 features[user_permission][] = administer permissions
 features[user_permission][] = administer pictures

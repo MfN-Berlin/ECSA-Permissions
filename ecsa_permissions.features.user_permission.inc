@@ -628,15 +628,6 @@ function ecsa_permissions_user_default_permissions() {
     'module' => 'panels',
   );
 
-  // Exported permission: 'administer paragraphs bundles'.
-  $permissions['administer paragraphs bundles'] = array(
-    'name' => 'administer paragraphs bundles',
-    'roles' => array(
-      'Admin' => 'Admin',
-    ),
-    'module' => 'paragraphs',
-  );
-
   // Exported permission: 'administer pathauto'.
   $permissions['administer pathauto'] = array(
     'name' => 'administer pathauto',
