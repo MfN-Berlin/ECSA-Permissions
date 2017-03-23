@@ -279,7 +279,6 @@ function ecsa_permissions_user_default_permissions() {
     'name' => 'administer blocks',
     'roles' => array(
       'Admin' => 'Admin',
-      'Manager' => 'Manager',
     ),
     'module' => 'block',
   );
@@ -325,8 +324,6 @@ function ecsa_permissions_user_default_permissions() {
     'name' => 'administer entity translation',
     'roles' => array(
       'Admin' => 'Admin',
-      'Manager' => 'Manager',
-      'Redakteur' => 'Redakteur',
     ),
     'module' => 'entity_translation',
   );
@@ -382,6 +379,7 @@ function ecsa_permissions_user_default_permissions() {
     'name' => 'administer fields',
     'roles' => array(
       'Admin' => 'Admin',
+      'Manager' => 'Manager',
     ),
     'module' => 'field',
   );
@@ -446,7 +444,6 @@ function ecsa_permissions_user_default_permissions() {
     'name' => 'administer languages',
     'roles' => array(
       'Admin' => 'Admin',
-      'Manager' => 'Manager',
     ),
     'module' => 'locale',
   );
@@ -465,8 +462,6 @@ function ecsa_permissions_user_default_permissions() {
     'name' => 'administer manualcrop settings',
     'roles' => array(
       'Admin' => 'Admin',
-      'Manager' => 'Manager',
-      'Redakteur' => 'Redakteur',
     ),
     'module' => 'manualcrop',
   );
@@ -642,6 +637,7 @@ function ecsa_permissions_user_default_permissions() {
     'name' => 'administer permissions',
     'roles' => array(
       'Admin' => 'Admin',
+      'Manager' => 'Manager',
     ),
     'module' => 'user',
   );
@@ -718,7 +714,6 @@ function ecsa_permissions_user_default_permissions() {
     'roles' => array(
       'Admin' => 'Admin',
       'Manager' => 'Manager',
-      'Redakteur' => 'Redakteur',
     ),
     'module' => 'scheduler',
   );
@@ -2433,8 +2428,6 @@ function ecsa_permissions_user_default_permissions() {
     'name' => 'toggle field translatability',
     'roles' => array(
       'Admin' => 'Admin',
-      'Manager' => 'Manager',
-      'Redakteur' => 'Redakteur',
     ),
     'module' => 'entity_translation',
   );
@@ -2453,8 +2446,6 @@ function ecsa_permissions_user_default_permissions() {
     'name' => 'translate any entity',
     'roles' => array(
       'Admin' => 'Admin',
-      'Manager' => 'Manager',
-      'Redakteur' => 'Redakteur',
     ),
     'module' => 'entity_translation',
   );
@@ -2464,8 +2455,6 @@ function ecsa_permissions_user_default_permissions() {
     'name' => 'translate bean entities',
     'roles' => array(
       'Admin' => 'Admin',
-      'Manager' => 'Manager',
-      'Redakteur' => 'Redakteur',
     ),
     'module' => 'entity_translation',
   );
@@ -2484,7 +2473,6 @@ function ecsa_permissions_user_default_permissions() {
     'name' => 'translate interface',
     'roles' => array(
       'Admin' => 'Admin',
-      'Manager' => 'Manager',
     ),
     'module' => 'locale',
   );
@@ -2494,8 +2482,6 @@ function ecsa_permissions_user_default_permissions() {
     'name' => 'translate node entities',
     'roles' => array(
       'Admin' => 'Admin',
-      'Manager' => 'Manager',
-      'Redakteur' => 'Redakteur',
     ),
     'module' => 'entity_translation',
   );
@@ -2505,8 +2491,6 @@ function ecsa_permissions_user_default_permissions() {
     'name' => 'translate taxonomy_term entities',
     'roles' => array(
       'Admin' => 'Admin',
-      'Manager' => 'Manager',
-      'Redakteur' => 'Redakteur',
     ),
     'module' => 'entity_translation',
   );
